@@ -1,0 +1,41 @@
+.form-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+  
+    .heading{
+      display: block;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      color: #757575;
+    }
+}
+
+.modal {
+	.modal_header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.modal_title {
+			font-weight: 600;
+			font-size: 22px;
+			line-height: 33px;
+			color: #141414;
+		}
+	}
+	.card_title {
+		display: block;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 21px;
+		color: #757575;
+		padding-bottom: 12px;
+	}
+}
+
+.largeCheckBox {
+	width: 15px;
+	height: 15px;
+}

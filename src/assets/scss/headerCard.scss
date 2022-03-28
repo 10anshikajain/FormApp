@@ -1,0 +1,81 @@
+@import "./variables";
+
+body{
+    background: #F9F9F9;
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: 1px solid #DDD !important;
+    opacity: 1;
+}
+.header-wrap{
+    display: block;
+    width: 100%;
+    margin: 30px 0 !important;
+}
+.header-wrap.card{
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.04);
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+}
+.header-title{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.btn_color,
+.btn_color:hover,
+.btn_color:focus,
+.btn_color:active{
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none !important;
+    box-shadow: unset !important;
+    outline: none !important;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.theme-btn{
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 100%;   
+    display: inline-block;  
+    @media all and (max-width:576px){
+        padding: 10px 12px;
+
+    } 
+}
+
+.theme-primary,
+.theme-primary:hover{
+    color: #FFF;
+    background-color: $color-blue;
+}
+
+.theme-danger,
+.theme-danger:hover{
+    color: #FFF;
+    background-color: $color-red;
+}
+
+.margin-30px-bottom {
+    margin-bottom:30px
+}
